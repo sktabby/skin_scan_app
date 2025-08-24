@@ -1,16 +1,35 @@
-# skin_scan_app
+# 🩺 SkinScan – AI-Powered Skin Cancer Detection
 
-A new Flutter project.
+SkinScan is a **Flutter-based mobile application** that leverages **deep learning (ResNet50, TensorFlow Lite)** to detect potential skin cancer from images. The app aims to make **early awareness and detection accessible**, while providing prevention tips and educational resources.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
+- 📸 **Image Input** – Capture from camera or choose from gallery  
+- 🧠 **On-Device AI Model** – Runs `skincancer.tflite` locally for fast & private predictions  
+- 📊 **Detailed Results** – Displays cancer category, description, and severity level  
+- 🛡️ **Prevention & Awareness** – Precautionary steps and guidance for each skin cancer type  
+- 🎨 **Modern UI** – Built with Flutter, bottom navigation bar, and side drawer navigation  
+- 🔒 **Privacy-Friendly** – No cloud uploads; all processing happens on-device  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
+- **Frontend:** Flutter (Dart)  
+- **AI Model:** TensorFlow Lite (ResNet50 CNN)  
+- **Architecture:** MVVM with modular UI  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK (latest stable version)  
+- Android Studio / VS Code with Flutter & Dart plugins  
+- A device/emulator running Android or iOS  
+
+### Installation
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/sktabby/skin_scan_app.git
+   cd skinscan
