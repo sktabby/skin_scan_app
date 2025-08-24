@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "978099678652",
+    "project_id": "skin-scan-app-b53a0",
+    "storage_bucket": "skin-scan-app-b53a0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978099678652:android:65e212195c4393e1334fb9",
+        "android_client_info": {
+          "package_name": "com.example.skin_scan_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfdGs0dtgspS6DE1IbXxdHBIGh0VXfyVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

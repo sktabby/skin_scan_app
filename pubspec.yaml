@@ -1,0 +1,35 @@
+name: skin_scan_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  camera: ^0.10.5
+  image_picker: ^1.1.2
+  intl: ^0.20.2
+
+  # TFLite runtime
+  tflite_flutter: ^0.11.0
+
+  # For on-device image preprocessing
+  image: ^4.0.17 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets\best_skin_model.tflite
+    - assets/images/
